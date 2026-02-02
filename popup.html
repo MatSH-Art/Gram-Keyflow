@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gram Keyflow</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Gram Keyflow</h1>
+      <p class="subtitle">Keyboard shortcuts</p>
+
+      <form id="keybinds"></form>
+      <div class="section">
+        <p class="subtitle">User Recommendation Visibility</p>
+
+        <div class="segmented" id="visibilityToggle">
+          <button data-mode="Shown">Shown</button>
+          <button data-mode="Hidden">Hidden</button>
+        </div>
+      </div>
+      <button id="saveBtn" class="save">Save</button>
+      <button id="resetBtn" class="reset">Reset</button>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
